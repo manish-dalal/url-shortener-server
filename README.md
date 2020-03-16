@@ -2,7 +2,14 @@
 
 ## Description
 
-This project was created for an interview as a NodeJS developer, it shows the use of express server and redis
+This project was created for an interview as a NodeJS developer, it shows the use of express server and Redis.
+
+## Features
+1. Shorten given long URL
+2. Redirect to original on accessing short URL
+3. Implemented rate limiter so that single user should not be able to hit app more than 100 times per min. 
+4. And user can set URL expiry time.
+5. URL analytics
 
 ### Run Localy
 
