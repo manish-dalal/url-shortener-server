@@ -9,13 +9,12 @@ var _redis = _interopRequireDefault(require("./redis"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const maxReqMin = 10;
+const maxReqMin = 100;
 
 var _default = (req, res, next) => {
   const {
     headers
-  } = req; // get the unique identifier for the user here
-
+  } = req;
   const {
     iptoken = ''
   } = headers;
